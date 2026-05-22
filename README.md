@@ -14,7 +14,7 @@ This project is a Java 21 command-line application that processes a large advert
 Clone the repository and move into the project directory:
 
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/NinhLe2806/java-FV-SEC001)
 cd java-FV-SEC001
 ```
 
@@ -33,6 +33,7 @@ On Windows:
 ## How to Run the Program
 
 Run the shaded JAR file after building:
+Note: Before running the program, please make sure that the `ad_data.csv` file is placed at the same level as the `src` folder in the project directory.
 
 ```bash
 java -jar target/java-FV-SEC001-1.0-SNAPSHOT.jar --input ad_data.csv --output results
